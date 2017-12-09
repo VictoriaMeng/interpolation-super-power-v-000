@@ -3,4 +3,4 @@ def display_rainbow(colors)
   colors.each { |color| puts color }
 end
 
-display_rainbow
+display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
