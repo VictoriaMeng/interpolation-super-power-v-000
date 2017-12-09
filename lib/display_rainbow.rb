@@ -2,7 +2,7 @@
 def display_rainbow(colors)
   colors.each do |color|
     if color == colors.last
-      print "#{color[0].upcase}: #{color}\n"
+      puts "#{color[0].upcase}: #{color}"
     else
       print "#{color[0].upcase}: #{color}, "
     end
