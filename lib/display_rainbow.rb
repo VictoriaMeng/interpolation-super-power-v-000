@@ -5,6 +5,7 @@ def display_rainbow(colors)
       print "#{color[0].upcase}: #{color}\n"
     else
       print "#{color[0].upcase}: #{color}, "
+    end
   end
 end
 
