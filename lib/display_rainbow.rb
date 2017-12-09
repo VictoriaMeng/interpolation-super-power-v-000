@@ -2,3 +2,5 @@
 def display_rainbow(colors)
   colors.each { |color| puts color }
 end
+
+display_rainbow
