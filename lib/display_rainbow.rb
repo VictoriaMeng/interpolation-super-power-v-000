@@ -1,12 +1,12 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  colors.each do |color|
-    if color == colors.last
-      puts "#{color[0].upcase}: #{color}"
-    else
-      print "#{color[0].upcase}: #{color}, "
-    end
-  end
+  prints "R: #{color[0]}, "
+  prints "O: #{color[1]}, "
+  prints "Y: #{color[2]}, "
+  prints "G: #{color[3]}, "
+  prints "B: #{color[4]}, "
+  prints "I: #{color[5]}, "
+  puts "V: #{color[6]}"
 end
 
 display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
